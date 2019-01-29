@@ -1,0 +1,14 @@
+
+
+h3 {
+  text-align: center;
+}
+
+span {
+  display: flex;
+  justify-content: space-around;
+}
+
+.middle {
+  text-align: center;
+}
