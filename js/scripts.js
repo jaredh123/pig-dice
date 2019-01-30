@@ -68,6 +68,7 @@ $(document).ready(function() {
       if (pointsOne >= 100) {
         alert("Player 1 Wins");
         location.reload();
+        $("#rules").hide();
       }
     }
     else {
@@ -82,6 +83,7 @@ $(document).ready(function() {
       if (pointsTwo >= 100) {
         alert("Player 2 Wins");
         location.reload();
+        $("#rules").hide();
       }
     }
   });
