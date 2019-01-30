@@ -19,35 +19,44 @@
         <br>
         <br>
         <div class="well">
-          <h3>Player 1</h3>
+          <h3 id="player1">Player 1</h3>
           <br>
           <br>
           <span id="pointsOne"></span>
         </div>
+        <div class="panel">
+          <ul id="rules">
+            <h4>Rules:</h4>
+            <li>Click the 'Roll' button to roll the die. Each roll is added to the total points.</li>
+            <li>Click the 'Switch' button to collect the rolled points and then it becomes the other player's the turn.</li>
+            <li>If a player rolls a 1 then the rolled points are not collected and it is then the other player's turn.</li>
+            <li>First player to reach 100 points wins.</li>
+          </ul>
+        </div>
       </div>
 
-      <div class="col-md-3">
+      <div class="col-md-3 middle">
         <br>
+        <div class="panel">
+          <h1>Pig Dice</h1>
+        </div>
         <br>
+        <button id="ruleButton" type="button" class="button btn-primary">Rules</button>
         <br>
         <br>
         <div class="well middle">
-          <h1>Pig Dice</h1>
-          <br>
-          <p>Current Total:</p>
-          <span id="runningTotal"></span>
-          <br>
-          <p>Your Roll:</p>
-          <span id="rollValue"></span>
-          <br>
+          <span id="turn"></span>
           <br>
           <button type="button" class="btn btn-success" id="roll">Roll Die</button>
           <br>
           <br>
+          <p>Your Roll:</p>
+          <span id="rollValue"></span>
+          <br>
+          <p>Current Total:</p>
+          <span id="runningTotal"></span>
+          <br>
           <button type="button" class="btn btn-info" id="switch" >Switch Turn</button>
-          <br>
-          <br>
-          <span id="turn"></span>
         </div>
       </div>
 
@@ -57,7 +66,7 @@
         <br>
         <br>
         <div class="well">
-          <h3>Player 2</h3>
+          <h3 id="player2">Player 2</h3>
           <br>
           <br>
           <span id="pointsTwo"></span>
