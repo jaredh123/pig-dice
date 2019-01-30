@@ -1,5 +1,3 @@
-
-
 h3 {
   text-align: center;
 }
@@ -9,6 +7,23 @@ span {
   justify-content: space-around;
 }
 
+body {
+  background-color: gray;
+}
+
+.blue {
+  color: blue;
+}
+
 .middle {
   text-align: center;
+}
+
+.panel {
+  background-color: beige;
+  padding: 5px;
+}
+
+#rules {
+  display: none;
 }
